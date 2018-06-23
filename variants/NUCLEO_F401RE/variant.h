@@ -107,7 +107,7 @@ enum {
 // This must be a literal with a value less than or equal to to MAX_ANALOG_INPUTS
 #define NUM_ANALOG_INPUTS       13
 #define NUM_ANALOG_FIRST        46
-
+#define PWM_FREQUENCY           30000
 // On-board LED pin number
 #define LED_BUILTIN             13
 #define LED_GREEN               LED_BUILTIN
